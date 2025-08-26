@@ -1,204 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <!-- =BOX ICONS= -->
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+  <title>Essai Iyyappan - Personal Portfolio</title>
+</head>
+<body>
+  <!--= HEADER =-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <a href="#" class="nav__logo">Essai Iyyappan</a>
+      </div>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </div>
+      <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-menu'></i>
+      </div>
+    </nav>
+  </header>
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+  <main class="l-main">
+    <!--= HOME =-->
+    <section class="home bd-grid" id="home">
+      <div class="home__data">
+        <h1 class="home__title">
+          Hi,<br />
+          I'm <span class="home__title-color">Essai Iyyappan,</span><br />
+          CS Major & MBA Student.
+        </h1>
+        <a href="#contact" class="button">Contact Me</a>
+      </div>
+      <div class="home__social">
+        <a href="https://www.linkedin.com/in/essai-iyyappan-83a265261" target="_blank" class="home__social-icon"
+          ><i class='bx bxl-linkedin'></i
+        ></a>
+        <a href="https://www.instagram.com/es_iyyappan/" target="_blank" class="home__social-icon"
+          ><i class='bx bxl-instagram'></i
+        ></a>
+        <a href="https://github.com/essai1415" target="_blank" class="home__social-icon"
+          ><i class='bx bxl-github'></i
+        ></a>
+      </div>
+      <div class="home__img">
+        <svg
+          class="home__blob"
+          viewBox="0 0 479 467"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <mask id="mask0" mask-type="alpha">
+            <path
+              d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+            />
+          </mask>
+          <g mask="url(#mask0)">
+            <path
+              d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+            />
+            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png" />
+          </g>
+        </svg>
+      </div>
+    </section>
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!--= ABOUT =-->
+    <section class="about section" id="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about__container bd-grid">
+        <div class="about__img">
+          <img src="assets/img/aboutt2.jpg" alt="Essai Iyyappan" />
+        </div>
+        <div>
+          <h2 class="about__subtitle">Career Objective</h2>
+          <p class="about__text">
+            I've always been fascinated by how technology can transform ideas into real world impact. With a background in computer applications and hands-on experience across diverse tech domains,
+            I am now pursuing an MBA in Finance & Business Analytics to bridge the gap between innovation and business strategy. My goal is to turn insights into action, solve complex challenges,
+            and drive meaningful growth for organizations that value creativity, efficiency, and forward thinking solutions.
+          </p>
 
-        <title>My Personal Portfolio Website</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Essai</a>
-                </div>
+          <h2 class="about__subtitle">Languages Known</h2>
+          <p class="about__text">Tamil, English (Read, Write, Speak)</p>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
+          <h2 class="about__subtitle">Hobbies</h2>
+          <p class="about__text">
+            Reading non-fiction books, playing guitar and piano, working with computer technologies, passionate about fitness and nutrition, and a dance enthusiast.
+          </p>
+        </div>
+      </div>
+    </section>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+    <!--= EDUCATION & CERTIFICATIONS =-->
+    <section class="education section" id="education">
+      <h2 class="section-title">Education & Certifications</h2>
+      <div class="education__container bd-grid">
+        <div>
+          <h2 class="education__subtitle">Education</h2>
+          <ul>
+            <li>
+              <strong>Master Of Business Administration (MBA) - Finance & Business Analytics</strong><br />
+              Sri Krishna College of Technology | 2024 - 2026 (Pursuing)
+            </li>
+            <li>
+              <strong>Bachelor Of Computer Applications</strong><br />
+              Udaya College Of Arts and Science | 2021 - 2024<br />
+              CGPA: 80.6%
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="education__subtitle">Certifications</h2>
+          <ul>
+            <li>Financial Markets | Yale University | 2025</li>
+            <li>Oracle Cloud Infrastructure Generative AI Professional | 2025</li>
+            <li>The Git & GitHub Bootcamp Certificate | Udemy | 2025</li>
+            <li>MySQL Bootcamp Certificate | Udemy | 2025</li>
+            <li>Oracle Cloud Infrastructure Data Science Professional | 2025</li>
+            <li>Machine Learning with Python | IBM | 2025</li>
+            <li>Advanced Financial Analytics Certification | IIT Kanpur | 2025</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Essai Iyyappan,</span><br>Cs Major.</h1>
-
-                    <a href="#" class="button">Contact</a>
-                </div>
-
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/essai-iyyappan-83a265261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://www.instagram.com/es_iyyappan/" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
-                    <a href="https://github.com/essai1415" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
-
-                <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
-                        </g>
-                    </svg>
-                </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/aboutt2.jpg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'am Essai Iyyappan</h2>
-                        <p class="about__text">Hello. I'm pursuing a bachelor's degree in Computer Applications. I have a keen interest in Artificial Intelligence and Data Science. I'm looking forward to pursue a Master's degree in Business Administration to hone my business skills along with tech skills for better opportunities in the future.</p>           
-                    </div>                                   
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">I can code proficiently in PYTHON and JAVA. I also have an in-depth knowledge in HTML5, JAVASCRIPT and CSS.</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
-                            </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS3</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-coffee skills__icon'></i>
-                                <span class="skills__name">JAVA</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='teenyicons:python-outline skills__icon'></i>
-                                <span class="skills__name">Python</span>
-                            </div>
-                            <div class="skills__bar skills__py">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">90%</span>
-                            </div>
-                        </div>
-                    </div>
-                                
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxl-python skills__icon'></i>
-                            <span class="skills__name">PYTHON</span>
-                        </div>
-                        <div class="skills__bar skills__python"></div>
-                        <div>
-                            <span class="skills__percentage">90%</span>
-                        </div>
-                    </div>
-            
-                    <div>              
-                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
-                    </div>
-                </div>
-            </section>
-
-            <!--===== WORK =====-->
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <form action=""  class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Submit" class="contact__button button">
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Welcome, Essai Here!</p>
-            <div class="footer__social">
-                <a href="https://www.facebook.com/Es.Iyyappan" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="https://www.instagram.com/es_iyyappan/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="https://x.com/EsIyyappanMba?t=C2FNwXGyqJDJCDbCq8Bl1g&s=09" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+    <!--= SKILLS =-->
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills__container bd-grid">
+        <div>
+          <h2 class="skills__subtitle">Technical Skills</h2>
+          <p class="skills__text">
+            Proficient in Python, Java, SQL, Git. Foundational knowledge in HTML, CSS, JavaScript, and Amazon Web Services fundamentals. Also skilled in Advanced Excel, Power BI, Tableau.
+          </p>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxl-python skills__icon'></i>
+              <span class="skills__name">Python</span>
             </div>
-        </footer>
+            <div class="skills__bar skills__python"></div>
+            <div><span class="skills__percentage">90%</span></div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxs-coffee skills__icon'></i>
+              <span class="skills__name">Java</span>
+            </div>
+            <div class="skills__bar skills__ux"></div>
+            <div><span class="skills__percentage">85%</span></div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxl-html5 skills__icon'></i>
+              <span class="skills__name">HTML5</span>
+            </div>
+            <div class="skills__bar skills__html"></div>
+            <div><span class="skills__percentage">95%</span></div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxl-css3 skills__icon'></i>
+              <span class="skills__name">CSS3</span>
+            </div>
+            <div class="skills__bar skills__css"></div>
+            <div><span class="skills__percentage">85%</span></div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxl-javascript skills__icon'></i>
+              <span class="skills__name">JavaScript</span>
+            </div>
+            <div class="skills__bar skills__js"></div>
+            <div><span class="skills__percentage">65%</span></div>
+          </div>
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class='bx bxl-git skills__icon'></i>
+              <span class="skills__name">Git</span>
+            </div>
+            <div class="skills__bar skills__git"></div>
+            <div><span class="skills__percentage">80%</span></div>
+          </div>
+        </div>
 
+        <div>
+          <h2 class="skills__subtitle">Soft Skills</h2>
+          <ul>
+            <li>Leadership, decision making, problem solving, active listening</li>
+            <li>Project organizing, planning, and execution</li>
+            <li>Articulate communication</li>
+            <li>Strong ability to learn & apply tech concepts</li>
+          </ul>
+          <img src="assets/img/work3.jpg" alt="Work example" class="skills__img" />
+        </div>
+      </div>
+    </section>
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+    <!--= PROJECTS =-->
+    <section class="projects section" id="projects">
+      <h2 class="section-title">Projects & Research</h2>
+      <ul>
+        <li>
+          <strong>AI Chatbot in Healthcare:</strong> Developed an AI-powered chatbot to assist with basic healthcare queries using Java and SQLite, with version control via GitHub.
+        </li>
+        <li>
+          <strong>Online Job Portal:</strong> Designed and implemented a web-based job portal using HTML, CSS, JavaScript, Ajax, and SQLite for interactive job listings and user management.
+        </li>
+        <li>
+          <strong>Survey Research:</strong> Impact of Social Media Usage on Behavioral Patterns and Well-Being (2024).
+        </li>
+        <li>
+          <strong>Survey Research:</strong> Study on Impact of AI Toward Investor’s Decision Making (2025).
+        </li>
+      </ul>
+    </section>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!--= EXPERIENCE =-->
+    <section class="experience section" id="experience">
+      <h2 class="section-title">Relevant Experience</h2>
+      <div class="experience__container bd-grid">
+        <article>
+          <h3>Titan Company Limited – Data Analytics Intern</h3>
+          <small>June 2025 – August 2025, Bengaluru, Karnataka</small>
+          <p>
+            - Built an AI-powered Jewelry Discount Analysis Dashboard on Streamlit for Tanishq, Mia, and Zoya with interactive visualizations, dual-dropdown modules, and AI capabilities.
+          </p>
+          <p>
+            - Developed Next Action, an interactive Business Intelligence web app converting data into immediate actionable plans with assignment and email notifications.
+          </p>
+          <p>
+            - Created a Random Forest Regressor model optimizing discounts, driving data-informed profitability improvements.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!--= CONTACT =-->
+    <section class="contact section" id="contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact__container bd-grid">
+        <form action="" class="contact__form" onsubmit="return false;">
+          <input type="text" placeholder="Name" class="contact__input" required />
+          <input type="email" placeholder="Email" class="contact__input" required />
+          <textarea placeholder="Message" class="contact__input" rows="5" required></textarea>
+          <input type="submit" value="Submit" class="contact__button button" />
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--= FOOTER =-->
+  <footer class="footer">
+    <p class="footer__title">Welcome, Essai here!</p>
+    <div class="footer__social">
+      <a href="https://www.facebook.com/Es.Iyyappan" target="_blank" class="footer__icon"
+        ><i class='bx bxl-facebook'></i
+      ></a>
+      <a href="https://www.instagram.com/es_iyyappan/" target="_blank" class="footer__icon"
+        ><i class='bx bxl-instagram'></i
+      ></a>
+      <a href="https://x.com/EsIyyappanMba?t=C2FNwXGyqJDJCDbCq8Bl1g&s=09" target="_blank" class="footer__icon"
+        ><i class='bx bxl-twitter'></i
+      ></a>
+    </div>
+  </footer>
+
+  <!--= SCROLL REVEAL =-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!--= MAIN JS =-->
+  <script src="assets/js/main.js"></script>
+</body>
 </html>
-
-
